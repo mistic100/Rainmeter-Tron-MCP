@@ -50,14 +50,16 @@ Y=(#BlockHeight# - 18)
 
 [TextLeftLine1]
 FontSize=11
+FontWeight=700
 StringAlign=LeftCenter
 X=35
 Y=55
 
 [TextLeftLine2]
 FontSize=11
+FontWeight=700
 StringAlign=LeftCenter
-X=35
+X=0r
 Y=3R
 
 [TextRoundline]

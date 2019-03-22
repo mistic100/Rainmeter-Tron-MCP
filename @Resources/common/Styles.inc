@@ -14,7 +14,7 @@ Font=GeosansLight
 FontSize=12
 
 RoundlineSize=40
-RoundlineSmallSize=24
+RoundlineSmallSize=29
 RoundlineSpacing=3
 RoundlineThinLength=5
 RoundlineThinPadding=1
@@ -101,11 +101,11 @@ LineStart=(#RoundlineSize# - #RoundlineSpacing# * 1 - #RoundlineStdLength# * 2)
 LineLength=(#RoundlineSize# - #RoundlineSpacing# * 1 - #RoundlineStdLength# * 1)
 
 [RoundlineSmallBackground]
-LineStart=(#RoundlineSmallSize# - #RoundlineThinLength# + #RoundlineThinPadding#) 
-LineLength=(#RoundlineSmallSize# - #RoundlineThinPadding#)
+LineStart=(#RoundlineSmallSize# - #RoundlineStdLength# + #RoundlineStdPadding# + 3)
+LineLength=(#RoundlineSmallSize# - #RoundlineStdPadding#)
 
 [RoundlineSmall]
-LineStart=(#RoundlineSmallSize# - #RoundlineThinLength#) 
+LineStart=(#RoundlineSmallSize# - #RoundlineStdLength# + 3)
 LineLength=(#RoundlineSmallSize#)
 
 [TextOrange]
@@ -117,3 +117,8 @@ FontFace=#Font#
 AntiAlias=1
 FontColor=#TronWhite#
 FontFace=#Font#
+
+[TextGraph]
+FontSize=11
+X=0r
+Y=0r

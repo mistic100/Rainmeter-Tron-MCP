@@ -47,7 +47,7 @@ Y=#RoundlineY#
 FontSize=#FontSize#
 FontWeight=700
 StringAlign=RightCenter
-X=(#Width# - #RoundlineX# + 20)
+X=(#BlockWidth# - #RoundlineX# + 20)
 Y=#RoundlineY#
 
 

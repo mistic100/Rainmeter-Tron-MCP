@@ -22,28 +22,47 @@ X=15
 Y=26
 
 [TextValue]
-FontSize=14
+FontSize=13
 StringAlign=Right
 Y=0R
 H=20
 
 [TextLabel]
-FontSize=13
+FontSize=12
 ClipString=1
-H=20
+H=19
 X=5r
-Y=0r
+Y=1r
 
 
 ; ----------------------------------
 ; MEASURES
 ; ----------------------------------
 
-[MeasureRandom]
+[MeasureLoop1]
+Measure=Loop
+StartValue=0
+EndValue=180
+Increment=6
+UpdateDivider=1
+
+[MeasureLoop2]
 Measure=Calc
-Formula=Random
-UpdateRandom=1
-UpdateDivider=2
+Formula=[MeasureLoop1] < 135 ? [MeasureLoop1] + 45 : [MeasureLoop1] - 135
+DynamicVariables=1
+UpdateDivider=1
+
+[MeasureLoop3]
+Measure=Calc
+Formula=[MeasureLoop2] < 135 ? [MeasureLoop2] + 45 : [MeasureLoop2] - 135
+DynamicVariables=1
+UpdateDivider=1
+
+[MeasureLoop4]
+Measure=Calc
+Formula=[MeasureLoop3] < 135 ? [MeasureLoop3] + 45 : [MeasureLoop3] - 135
+DynamicVariables=1
+UpdateDivider=1
 
 
 ; ----------------------------------
@@ -69,9 +88,9 @@ H=#CoreSize#
 [MeterCore1]
 Meter=Image
 ImageName=#@#images\ram-1.png
-ImageAlpha=([MeasureRandom] < 50 ? 255 : 150)
+ImageAlpha=(Sin(Rad([MeasureLoop1])) * 200)
 DynamicVariables=1
-UpdateDivider=2
+UpdateDivider=1
 X=0r
 Y=0r
 W=#CoreSize#
@@ -80,9 +99,9 @@ H=#CoreSize#
 [MeterCore2]
 Meter=Image
 ImageName=#@#images\ram-2.png
-ImageAlpha=([MeasureRandom] >= 25 ? ([MeasureRandom] <= 75 ? 255 : 150) : 150)
+ImageAlpha=(Sin(Rad([MeasureLoop2])) * 200)
 DynamicVariables=1
-UpdateDivider=2
+UpdateDivider=1
 X=0r
 Y=0r
 W=#CoreSize#
@@ -91,9 +110,20 @@ H=#CoreSize#
 [MeterCore3]
 Meter=Image
 ImageName=#@#images\ram-3.png
-ImageAlpha=([MeasureRandom] > 50 ? 255 : 150)
+ImageAlpha=(Sin(Rad([MeasureLoop3])) * 200)
 DynamicVariables=1
-UpdateDivider=2
+UpdateDivider=1
+X=0r
+Y=0r
+W=#CoreSize#
+H=#CoreSize#
+
+[MeterCore4]
+Meter=Image
+ImageName=#@#images\ram-4.png
+ImageAlpha=(Sin(Rad([MeasureLoop4])) * 200)
+DynamicVariables=1
+UpdateDivider=1
 X=0r
 Y=0r
 W=#CoreSize#

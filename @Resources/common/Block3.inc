@@ -8,8 +8,8 @@ BlockHeight=86
 LedW=35
 LedH=19
 
-RoundlineLeftX=137
-RoundlineRightX=289
+RoundlineLeftX=132
+RoundlineRightX=283
 RoundlineY=(#BlockHeight# / 2)
 
 
@@ -17,18 +17,26 @@ RoundlineY=(#BlockHeight# / 2)
 ; STYLES
 ; ----------------------------------
 
-[Graph]
-X=165
-Y=28
-W=96
-H=31
-
 [TextLeft]
+FontSize=13
+FontWeight=700
+StringAlign=LeftCenter
+X=28
+Y=(#BlockHeight# / 2)
+
+[TextRightLine1]
 FontSize=11
 FontWeight=700
 StringAlign=LeftCenter
-X=32
-Y=(#BlockHeight# / 2)
+X=190
+Y=35
+
+[TextRightLine2]
+FontSize=11
+FontWeight=700
+StringAlign=LeftCenter
+X=0r
+Y=2R
 
 [TextRoundlineLeft]
 FontSize=#FontSize#
@@ -74,8 +82,8 @@ ImageName=#@#images\leds-3.png
 ImageAlpha=([MeasureRandom] > 50 ? 255 : 150)
 DynamicVariables=1
 UpdateDivider=2
-X=(248 - #LedW# / 2)
-Y=(17 - #LedH# / 2)
+X=(238 - #LedW# / 2)
+Y=(16 - #LedH# / 2)
 W=#LedW#
 H=#LedH#
 
@@ -85,7 +93,7 @@ ImageName=#@#images\leds-3.png
 ImageAlpha=([MeasureRandom] > 50 ? 255 : 150)
 DynamicVariables=1
 UpdateDivider=2
-X=(95 - #LedW# / 2)
-Y=(#BlockHeight# - 17 - #LedH# / 2)
+X=(85 - #LedW# / 2)
+Y=(#BlockHeight# - 15 - #LedH# / 2)
 W=#LedW#
 H=#LedH#

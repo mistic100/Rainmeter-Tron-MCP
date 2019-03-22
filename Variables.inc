@@ -60,6 +60,10 @@ Drive5TempSensorId=0xf0000100
 Drive5TempSensorInstance=0x4
 Drive5TempEntryId=0x1000000
 
+Drive6TempSensorId=0xf0000100
+Drive6TempSensorInstance=0x5
+Drive6TempEntryId=0x1000000
+
 TopIgnored=Idle|%Total|rundll32|wscript|userinit|dwm|Rainmeter|svchost*|System|Memory Compression|WmiPrvSe%|MsMpEng%
 
 ; Query for http://openweathermap.org
@@ -77,3 +81,4 @@ Drive2=B:
 Drive3=C:
 Drive4=D:
 Drive5=M:
+Drive6=N:
