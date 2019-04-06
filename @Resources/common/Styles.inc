@@ -1,5 +1,5 @@
 [Variables]
-Update=5
+Update=10
 
 TronBlue=329c9d
 TronOrange=df740c
@@ -117,6 +117,17 @@ FontFace=#Font#
 AntiAlias=1
 FontColor=#TronWhite#
 FontFace=#Font#
+
+[TextBlue]
+AntiAlias=1
+FontColor=#TronBlue#
+FontFace=#Font#
+
+[TextWhiteShadow]
+InlineSetting=Shadow | 0 | 0 | 3 | #TronWhite#
+
+[TextBlueShadow]
+InlineSetting=Shadow | 0 | 0 | 3 | #TronBlue#
 
 [TextGraph]
 FontSize=11

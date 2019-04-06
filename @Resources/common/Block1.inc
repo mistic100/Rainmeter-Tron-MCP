@@ -5,9 +5,6 @@
 BlockWidth=340
 BlockHeight=129
 
-LedW=19
-LedH=19
-
 RoundlineX=70
 RoundlineY=(#BlockHeight# / 2)
 
@@ -52,17 +49,6 @@ Y=#RoundlineY#
 
 
 ; ----------------------------------
-; MEASURES
-; ----------------------------------
-
-[MeasureRandom]
-Measure=Calc
-Formula=Random
-UpdateRandom=1
-UpdateDivider=2
-
-
-; ----------------------------------
 ; DISPLAY
 ; ----------------------------------
 
@@ -73,25 +59,3 @@ X=0
 Y=0
 W=#BlockWidth#
 H=#BlockHeight#
-
-[MeterLeds1]
-Meter=Image
-ImageName=#@#images\leds-1.png
-ImageAlpha=([MeasureRandom] > 50 ? 255 : 150)
-DynamicVariables=1
-UpdateDivider=2
-X=(#BlockWidth# - 110 - #LedW# / 2)
-Y=(22 - #LedH# / 2)
-W=#LedW#
-H=#LedH#
-
-[MeterLeds2]
-Meter=Image
-ImageName=#@#images\leds-1.png
-ImageAlpha=([MeasureRandom] > 50 ? 255 : 150)
-DynamicVariables=1
-UpdateDivider=2
-X=(110 - #LedW# / 2)
-Y=(#BlockHeight# - 22 - #LedH# / 2)
-W=#LedW#
-H=#LedH#

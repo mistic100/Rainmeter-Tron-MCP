@@ -2,19 +2,19 @@
 [MeasureDriveTotal]
 Measure=FreeDiskSpace
 Drive=#Drive1#
-UpdateDivider=60
+UpdateDivider=50
 Total=1
 
 [MeasureDriveFree]
 Measure=FreeDiskSpace
 Drive=#Drive1#
-UpdateDivider=60
+UpdateDivider=50
 
 [MeasureDriveUsage]
 Measure=FreeDiskSpace
 Drive=#Drive1#
 InvertMeasure=1
-UpdateDivider=60
+UpdateDivider=50
 
 ; Activity
 [MeasureDriveAccess]
