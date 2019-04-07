@@ -11,10 +11,10 @@ GPUTDP=160
 TopIgnored=Idle|%Total|rundll32|wscript|userinit|dwm|Rainmeter|svchost*|System|Memory Compression|WmiPrvSe%|MsMpEng%
 
 ; Query for http://openweathermap.org
-WeatherQ=Lyon
+WeatherQ=
 
 ; API key for http://openweathermap.org
-WeatherApiKey=316c550395f164daeb1de82845c3ad98
+WeatherApiKey=
 
 ; Drives letters
 Drive1=A:
@@ -60,10 +60,6 @@ GPUMemUsageEntryId=0x7000008
 GPUPowerSensorId=0xe0002000
 GPUPowerSensorInstance=0x14
 GPUPowerEntryId=0x5000000
-
-RAMClockSensorId=0xf0000301
-RAMClockSensorInstance=0x1
-RAMClockEntryId=0x6000000
 
 Drive1TempSensorId=0xf0000100
 Drive1TempSensorInstance=0x2

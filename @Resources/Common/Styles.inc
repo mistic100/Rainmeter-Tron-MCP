@@ -1,16 +1,14 @@
 [Variables]
-Update=10
+ColorBlue=329c9d
+ColorOrange=df740c
+ColorWhite=e6ffff
+ColorYellow=ffe64d
+ColorBlack=0c141f
 
-TronBlue=329c9d
-TronOrange=df740c
-TronWhite=e6ffff
-TronYellow=ffe64d
-TronBlack=0c141f
+ColorWhiteTransparent=#ColorWhite#22
+ColorOrangeTransparent=#ColorOrange#44
 
-TronWhiteTransparent=#TronWhite#22
-TronOrangeTransparent=#TronOrange#44
-
-Font=GeosansLight
+FontName=GeosansLight
 FontSize=12
 
 RoundlineSize=40
@@ -33,12 +31,12 @@ RoundlineSmallY=(#HeightSmall# / 2)
 [RoundlineBackground]
 Solid=1
 AntiAlias=1
-LineColor=#TronWhiteTransparent#
+LineColor=#ColorWhiteTransparent#
 
 [RoundlineBlue]
 Solid=1
 AntiAlias=1
-LineColor=#TronBlue#
+LineColor=#ColorBlue#
 
 [RoundlineTopLeftBottom]
 StartAngle=(Rad(-90))
@@ -108,28 +106,31 @@ LineLength=(#RoundlineSmallSize# - #RoundlineStdPadding#)
 LineStart=(#RoundlineSmallSize# - #RoundlineStdLength# + 3)
 LineLength=(#RoundlineSmallSize#)
 
-[TextOrange]
+[StyleTextOrange]
 AntiAlias=1
-FontColor=#TronOrange#
-FontFace=#Font#
+FontColor=#ColorOrange#
+FontFace=#FontName#
+FontSize=#FontSize#
 
-[TextWhite]
+[StyleTextWhite]
 AntiAlias=1
-FontColor=#TronWhite#
-FontFace=#Font#
+FontColor=#ColorWhite#
+FontFace=#FontName#
+FontSize=#FontSize#
 
-[TextBlue]
+[StyleTextBlue]
 AntiAlias=1
-FontColor=#TronBlue#
-FontFace=#Font#
+FontColor=#ColorBlue#
+FontFace=#FontName#
+FontSize=#FontSize#
 
-[TextWhiteShadow]
-InlineSetting=Shadow | 0 | 0 | 3 | #TronWhite#
+[StyleTextWhiteShadow]
+InlineSetting=Shadow | 0 | 0 | 3 | #ColorWhite#
 
-[TextBlueShadow]
-InlineSetting=Shadow | 0 | 0 | 3 | #TronBlue#
+[StyleTextBlueShadow]
+InlineSetting=Shadow | 0 | 0 | 3 | #ColorBlue#
 
-[TextGraph]
-FontSize=11
+[StyleTextGraph]
+FontSize=(#FontSize# - 1)
 X=0r
 Y=0r

@@ -1,5 +1,5 @@
 [Styles]
-@include=#@#common\Styles.inc
+@include=#@#Common\Styles.inc
 
 [Variables]
 BlockWidth=340
@@ -13,35 +13,31 @@ RoundlineY=(#BlockHeight# / 2)
 ; STYLES
 ; ----------------------------------
 
-[Graph]
+[StyleGraph]
 X=116
 Y=43
 H=43
 W=109
 
-[TextTopCenter]
-FontSize=#FontSize#
+[StyleTextTopCenter]
 FontWeight=700
 StringAlign=CenterCenter
 X=(#BlockWidth# / 2)
 Y=20
 
-[TextBottomCenter]
-FontSize=#FontSize#
+[StyleTextBottomCenter]
 FontWeight=700
 StringAlign=CenterCenter
 X=(#BlockWidth# / 2)
 Y=(#BlockHeight# - 18)
 
-[TextRoundlineLeft]
-FontSize=#FontSize#
+[StyleTextRoundlineLeft]
 FontWeight=700
 StringAlign=RightCenter
 X=(#RoundlineX# + 20)
 Y=#RoundlineY#
 
-[TextRoundlineRight]
-FontSize=#FontSize#
+[StyleTextRoundlineRight]
 FontWeight=700
 StringAlign=RightCenter
 X=(#BlockWidth# - #RoundlineX# + 20)
@@ -54,7 +50,7 @@ Y=#RoundlineY#
 
 [MeterBackground]
 Meter=Image
-ImageName=#@#images\graph-bg-1.png
+ImageName=#@#Images\graph-bg-1.png
 X=0
 Y=0
 W=#BlockWidth#

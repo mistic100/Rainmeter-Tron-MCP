@@ -1,5 +1,5 @@
 [Styles]
-@include=#@#common\Styles.inc
+@include=#@#Common\Styles.inc
 
 [Variables]
 BlockWidth=170
@@ -15,21 +15,21 @@ BarH=30
 ; STYLES
 ; ----------------------------------
 
-[Graph]
+[StyleGraph]
 X=(#BarX# + 1)
 Y=80
 W=(#BarW# - 1)
 H=(#BarH# - 2)
 
-[TextTop]
+[StyleTextTop]
 FontSize=12
 FontWeight=700
 X=20
 Y=17
 
-[TextBar]
+[StyleTextBar]
 StringAlign=RightTop
-FontSize=11
+FontSize=(#FontSize# - 1)
 FontWeight=700
 X=-10R
 Y=11r
@@ -41,7 +41,7 @@ Y=11r
 
 [MeterBackground]
 Meter=Image
-ImageName=#@#images\drive-bg.png
+ImageName=#@#Images\drive-bg.png
 X=0
 Y=0
 W=#BlockWidth#

@@ -1,5 +1,5 @@
 [Styles]
-@include=#@#common\Styles.inc
+@include=#@#Common\Styles.inc
 
 [Variables]
 BlockWidth=340
@@ -19,33 +19,31 @@ GraphRightP=13
 ; STYLES
 ; ----------------------------------
 
-[GraphRight]
+[StyleGraph]
 X=#GraphRightX#
 Y=#GraphRightY#
 H=#GraphRightH#
 W=#GraphRightW#
 
-[GraphRightTop]
+[StyleGraphTop]
 X=#GraphRightX#
 Y=#GraphRightY#
 H=(Ceil(#GraphRightH# / 2))
 W=#GraphRightW#
 
-[GraphRightBottom]
+[StyleGraphBottom]
 X=#GraphRightX#
 Y=(#GraphRightY# + Floor(#GraphRightH# / 2))
 H=(Ceil(#GraphRightH# / 2))
 W=#GraphRightW#
 
-[TextTopLeft]
-FontSize=#FontSize#
+[StyleTextTopLeft]
 FontWeight=700
 StringAlign=LeftCenter
 X=40
 Y=20
 
-[TextBottomRight]
-FontSize=#FontSize#
+[StyleTextBottomRight]
 FontWeight=700
 StringAlign=RightCenter
 X=(#BlockWidth# - 40)
@@ -53,22 +51,21 @@ Y=(#BlockHeight# - 18)
 W=90
 ClipString=1
 
-[TextLeftLine1]
-FontSize=11
+[StyleTextLeftLine1]
+FontSize=(#FontSize# - 1)
 FontWeight=700
 StringAlign=LeftCenter
-X=35
+X=33
 Y=55
 
-[TextLeftLine2]
-FontSize=11
+[StyleTextLeftLine2]
+FontSize=(#FontSize# - 1)
 FontWeight=700
 StringAlign=LeftCenter
 X=0r
 Y=3R
 
-[TextRoundline]
-FontSize=#FontSize#
+[StyleTextRoundline]
 FontWeight=700
 StringAlign=RightCenter
 X=(#RoundlineX# + 20)
@@ -81,7 +78,7 @@ Y=#RoundlineY#
 
 [MeterBackground]
 Meter=Image
-ImageName=#@#images\graph-bg-2.png
+ImageName=#@#Images\graph-bg-2.png
 X=0
 Y=0
 W=#BlockWidth#
