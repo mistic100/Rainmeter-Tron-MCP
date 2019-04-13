@@ -16,6 +16,10 @@ WeatherQ=
 ; API key for http://openweathermap.org
 WeatherApiKey=
 
+; Location (https://www.latlong.net)
+Latitude=
+Longitude=
+
 ; Drives letters
 Drive1=A:
 Drive2=B:

@@ -1,6 +1,6 @@
 [Settings]
-; Refresh your skin ... !Refresh * will refresh all
-RefreshCommand=/!RefreshGroup TronMCP
+; Refresh your skin ... [!Refresh *] will refresh all
+RefreshCommand=[!RefreshGroup TronMCP]
 ; Name displayed in the Taskbar area
 TaskbarTitle=Configure Tron MCP
 ; Window width; should match HeaderImage width
@@ -20,8 +20,10 @@ File1=..\..\Variables.inc
 [Variables]
 BgWidth=Width of the background skin
 BgHeight=Height of the background skin
-WeatherQ=Weather query for http://openweathermap.org
-WeatherApiKey=API key for http://openweathermap.org
+WeatherQ=Weather query for openweathermap.org
+WeatherApiKey=API key for openweathermap.org
+Latitude=Location latitude (find it on latlong.net)
+Longitude=Location longitude (find it on latlong.net)
 Drive1=Drive letter for drive 1
 Drive2=Drive letter for drive 2
 Drive3=Drive letter for drive 3

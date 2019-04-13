@@ -12,6 +12,25 @@
 #include <Misc.au3>
 #include <String.au3>
 #Include <File.au3>
+#include <SendMessage.au3>
+
+Func SendBang($szBang)
+   Local Const $hWnd = WinGetHandle("[CLASS:DummyRainWClass]")
+   If $hWnd <> 0 Then
+      Local Const $iSize = StringLen($szBang) + 1
+
+      Local Const $pMem = DllStructCreate("wchar[" & $iSize & "]")
+      DllStructSetData($pMem, 1, $szBang)
+
+      Local Const $pCds = DllStructCreate("dword;dword;ptr")
+      DllStructSetData($pCds, 1, 1)
+      DllStructSetData($pCds, 2, ($iSize * 2))
+      DllStructSetData($pCds, 3, DllStructGetPtr($pMem))
+
+      Local Const $WM_COPYDATA = 0x004A
+      _SendMessage($hWnd, $WM_COPYDATA, 0, DllStructGetPtr($pCds))
+   EndIf
+EndFunc
 
 Opt("TrayIconHide", 1)
 
@@ -62,7 +81,7 @@ While 1
 		 Exit
 
 	  Case $UpdateButton
-		 ShellExecute("refresh.exe", $cfgRefreshCommand)
+		 SendBang($cfgRefreshCommand)
 
 	  Case $VariableInput
 		 $NewVarValue = GUICtrlRead($VariableInput)

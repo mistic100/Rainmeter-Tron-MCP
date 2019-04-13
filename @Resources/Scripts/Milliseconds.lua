@@ -1,4 +1,4 @@
-local offset, lastSecond, ms
+local offset, lastSecond
 
 function Initialize()
 	offset = os.clock()
@@ -11,6 +11,6 @@ function Update()
 		lastSecond = os.time()
 	end
 
-	_,ms = math.modf(os.clock()-offset)
+	local _, ms = math.modf(os.clock()-offset)
 	return ms * 1000
 end
