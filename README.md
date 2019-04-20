@@ -1,11 +1,22 @@
-# Rainmeter Tron MCP
+# Rainmeter Tron-MCP
 
-WIP
- 
-## Requirements
+![Preview](.github/Preview.png)
 
- * Rainmeter 4.2
- * HWiNFO
+Full featured Rainmeter monitoring suite inspired by Tron movies.
+
+## Installation
+
+You will need :
+
+* Rainmeter 4.3
+* HWiNFO
+* https://openweathermap.org API key
+
+After loading and arranging the widgets at your will, right click on any widget to access the configuration window and the HWiNFO memory viewer (usefull to find `SensorId`, `SensorInstance` and `EntryId` values).
+
+## Features
+
+![Help](.github/Help.png)
 
 ## License
 

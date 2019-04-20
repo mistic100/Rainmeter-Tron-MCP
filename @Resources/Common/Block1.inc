@@ -50,7 +50,7 @@ Y=#RoundlineY#
 
 [MeterBackground]
 Meter=Image
-ImageName=#@#Images\graph-bg-1.png
+ImageName=#@#Images\graph-1.png
 X=0
 Y=0
 W=#BlockWidth#
