@@ -8,7 +8,7 @@ BgHeight=600
 CPUTDP=95
 GPUTDP=160
 
-TopIgnored=Idle|%Total|rundll32|wscript|userinit|dwm|Rainmeter|svchost*|System|Memory Compression|WmiPrvSe%|MsMpEng%
+TopIgnored=rundll32|wscript|userinit|dwm|Rainmeter|svchost*|System|Memory Compression|WmiPrvSe*|MsMpEng*
 
 ; Query for http://openweathermap.org
 WeatherQ=
