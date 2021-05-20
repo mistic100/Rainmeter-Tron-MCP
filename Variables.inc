@@ -20,103 +20,112 @@ WeatherApiKey=
 Latitude=
 Longitude=
 
+; API key for https://pro.coinmarketcap.com
+CoinMarketCapApiKey=
+
 ; Drives letters
 Drive1=A:
 Drive2=B:
 Drive3=C:
 Drive4=D:
-Drive5=M:
-Drive6=N:
+Drive5=E:
+Drive6=F:
+
+; Crypto config
+CryptoSparklineWindow=1d
+Coin1=BTC
+Coin2=ETH
+Coin3=DOGE
 
 ; HWiNFO Config (https://www.hwinfo.com/forum/Thread-Rainmeter-plug-in-for-HWiNFO-3-2)
-CPUClockSensorId=0xf0000300
-CPUClockSensorInstance=0x0
-CPUClockEntryId=0x6000000
+CPUClockSensorId=
+CPUClockSensorInstance=
+CPUClockEntryId=
 
-CPUTempSensorId=0xf0000400
-CPUTempSensorInstance=0x0
-CPUTempEntryId=0x10000fe
+CPUTempSensorId=
+CPUTempSensorInstance=
+CPUTempEntryId=
 
-CPUPowerSensorId=0xf0002a00
-CPUPowerSensorInstance=0x0
-CPUPowerEntryId=0x5000000
+CPUPowerSensorId=
+CPUPowerSensorInstance=
+CPUPowerEntryId=
 
-GPUClockSensorId=0xe0002000
-GPUClockSensorInstance=0x14
-GPUClockEntryId=0x6000000
+GPUClockSensorId=
+GPUClockSensorInstance=
+GPUClockEntryId=
 
-GPUTempSensorId=0xe0002000
-GPUTempSensorInstance=0x14
-GPUTempEntryId=0x1000000
+GPUTempSensorId=
+GPUTempSensorInstance=
+GPUTempEntryId=
 
-GPUUsageSensorId=0xe0002000
-GPUUsageSensorInstance=0x14
-GPUUsageEntryId=0x7000000
+GPUUsageSensorId=
+GPUUsageSensorInstance=
+GPUUsageEntryId=
 
-GPUMemSensorId=0xe0002000
-GPUMemSensorInstance=0x14
-GPUMemEntryId=0x80000fc
+GPUMemSensorId=
+GPUMemSensorInstance=
+GPUMemEntryId=
 
-GPUMemUsageSensorId=0xe0002000
-GPUMemUsageSensorInstance=0x14
-GPUMemUsageEntryId=0x7000008
+GPUMemUsageSensorId=
+GPUMemUsageSensorInstance=
+GPUMemUsageEntryId=
 
-GPUPowerSensorId=0xe0002000
-GPUPowerSensorInstance=0x14
-GPUPowerEntryId=0x5000000
+GPUPowerSensorId=
+GPUPowerSensorInstance=
+GPUPowerEntryId=
 
-Drive1TempSensorId=0xf0000100
-Drive1TempSensorInstance=0x2
-Drive1TempEntryId=0x1000000
+Drive1TempSensorId=
+Drive1TempSensorInstance=
+Drive1TempEntryId=
 
-Drive2TempSensorId=0xf0000100
-Drive2TempSensorInstance=0x0
-Drive2TempEntryId=0x1000000
+Drive2TempSensorId=
+Drive2TempSensorInstance=
+Drive2TempEntryId=
 
-Drive3TempSensorId=0xf0000100
-Drive3TempSensorInstance=0x3
-Drive3TempEntryId=0x1000000
+Drive3TempSensorId=
+Drive3TempSensorInstance=
+Drive3TempEntryId=
 
-Drive4TempSensorId=0xf0000100
-Drive4TempSensorInstance=0x1
-Drive4TempEntryId=0x1000000
+Drive4TempSensorId=
+Drive4TempSensorInstance=
+Drive4TempEntryId=
 
-Drive5TempSensorId=0xf0000100
-Drive5TempSensorInstance=0x4
-Drive5TempEntryId=0x1000000
+Drive5TempSensorId=
+Drive5TempSensorInstance=
+Drive5TempEntryId=
 
-Drive6TempSensorId=0xf0000100
-Drive6TempSensorInstance=0x5
-Drive6TempEntryId=0x1000000
+Drive6TempSensorId=
+Drive6TempSensorInstance=
+Drive6TempEntryId=
 
-SysFan1SensorId=0xf7067970
-SysFan1SensorInstance=0x0
-SysFan1EntryId=0x3000000
+SysFan1SensorId=
+SysFan1SensorInstance=
+SysFan1EntryId=
 
-SysFan2SensorId=0xf7067970
-SysFan2SensorInstance=0x0
-SysFan2EntryId=0x3000005
+SysFan2SensorId=
+SysFan2SensorInstance=
+SysFan2EntryId=
 
-SysFan3SensorId=0xf7067970
-SysFan3SensorInstance=0x0
-SysFan3EntryId=0x3000004
+SysFan3SensorId=
+SysFan3SensorInstance=
+SysFan3EntryId=
 
-SysFan4SensorId=0xf7067970
-SysFan4SensorInstance=0x0
-SysFan4EntryId=0x3000003
+SysFan4SensorId=
+SysFan4SensorInstance=
+SysFan4EntryId=
 
-MOSTempSensorId=0xf7067970
-MOSTempSensorInstance=0x0
-MOSTempEntryId=0x1000001
+MOSTempSensorId=
+MOSTempSensorInstance=
+MOSTempEntryId=
 
-PCHTempSensorId=0xf2010001
-PCHTempSensorInstance=0x0
-PCHTempEntryId=0x1000000
+PCHTempSensorId=
+PCHTempSensorInstance=
+PCHTempEntryId=
 
-SysTemp1SensorId=0xf7067970
-SysTemp1SensorInstance=0x0
-SysTemp1EntryId=0x1000000
+SysTemp1SensorId=
+SysTemp1SensorInstance=
+SysTemp1EntryId=
 
-SysTemp2SensorId=0xf7067970
-SysTemp2SensorInstance=0x0
-SysTemp2EntryId=0x1000004
+SysTemp2SensorId=
+SysTemp2SensorInstance=
+SysTemp2EntryId=
