@@ -20,6 +20,7 @@ File1=..\..\Variables.inc
 [Variables]
 BgWidth=Width of the background skin
 BgHeight=Height of the background skin
+MusicPlayer=Music player name
 WeatherQ=Weather query for openweathermap.org
 WeatherApiKey=API key for openweathermap.org
 Latitude=Location latitude (find it on latlong.net)
