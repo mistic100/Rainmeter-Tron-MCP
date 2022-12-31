@@ -20,7 +20,10 @@ File1=..\..\Variables.inc
 [Variables]
 BgWidth=Width of the background skin
 BgHeight=Height of the background skin
-MusicPlayer=Music player name
+MusicPlayer=Music player name 1
+MusicPlayer2=Music player name 2
+PlexToken=Personnal Plex token
+PlexUsername=Your Plex username
 WeatherQ=Weather query for openweathermap.org
 WeatherApiKey=API key for openweathermap.org
 Latitude=Location latitude (find it on latlong.net)

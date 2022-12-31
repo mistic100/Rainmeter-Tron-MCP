@@ -13,6 +13,9 @@ TopIgnored=rundll32|wscript|userinit|dwm|Rainmeter|svchost*|System|Memory Compre
 
 ; Music player
 MusicPlayer=Spotify
+MusicPlayer2=
+PlexToken=
+PlexUsername=
 
 ; Query for http://openweathermap.org
 WeatherQ=
