@@ -17,6 +17,10 @@ MusicPlayer2=
 PlexToken=
 PlexUsername=
 
+; Audio info
+RMSGain=10
+FFTSensitivity=35
+
 ; Query for http://openweathermap.org
 WeatherQ=
 
