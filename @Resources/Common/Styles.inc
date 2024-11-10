@@ -2,8 +2,6 @@
 ColorBlue=329c9d
 ColorOrange=df740c
 ColorWhite=e6ffff
-ColorYellow=ffe64d
-ColorBlack=0c141f
 
 ColorWhiteTransparent=#ColorWhite#22
 ColorOrangeTransparent=#ColorOrange#44
@@ -18,10 +16,6 @@ RoundlineThinLength=5
 RoundlineThinPadding=1
 RoundlineStdLength=(#RoundlineThinLength# * 2 + #RoundlineSpacing#)
 RoundlineStdPadding=2
-
-RoundlineSmallLeftX=133
-RoundlineSmallRightX=283
-RoundlineSmallY=(#HeightSmall# / 2)
 
 
 ; ----------------------------------
